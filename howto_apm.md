@@ -152,9 +152,9 @@ good:
   clc
   ret
 disc_error:
-  cmp ah, 03h ; Is it because no interface was set up in the first place?
-  je good     ; No interface, keep going
-error:       ; No, there was a real error
+  cmp ah, 03h   ; Is it because no interface was set up in the first place?
+  je good       ; No interface, keep going
+error:          ; No, there was a real error
   popa
   stc
   ret
@@ -174,4 +174,4 @@ error:
   ret           ; if you get here there is an error
 ```
 
-Well, that's all for now! Read some more tutorials!
+Well, that's all for now! Read some more tutorials! =)
