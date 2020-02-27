@@ -17,7 +17,7 @@ This also works, if you have an OS that supports UEFI. But in this tutorial, we 
 
 
 
-This *does* work, but it is very "hacky". There are more reliable ways to do this.'
+This *does* work, but it is very "hacky". There are more reliable ways to do this.
 
 4. Use the 8042 keyboard to pulse the CPU's RESET pin.
 
